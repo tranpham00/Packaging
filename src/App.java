@@ -1,5 +1,9 @@
+import mypkg.Stack;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Stack<String> stack = new Stack<String>();
+        stack.push("hello world");
+        System.out.println(stack.peek());
     }
 }
